@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">General Knowledge Quiz</string>
+    <string name="num_people">Number of people?</string>
+    <string name="hint_edit_text"># of people</string>
+    <string name="light">Light</string>
+    <string name="hungry_level">How hungry?</string>
+    <string name="medium">Medium</string>
+    <string name="ravenous">Ravenous</string>
+
+
+
+    <string name="total_pizzas">Your Score: ?</string>
+    <string name="calculate">Calculate Score</string>
+    <string name="title">Welcome to the General Knowledge Quiz</string>
+    <string name="q1">What year was the United Nations established?</string>
+    <string name="q2">How many faces does a Dodecahedron have?</string>
+    <string name="q3">What city is known as "The Eternal City"?</string>
+    <string name="q4">Who discovered that the earth revolves around the sun?</string>
+    <string name="q5">What country has won the most Football World Cups?</string>
+
+
+    <string name="q1_opt1">1930</string>
+    <string name="q1_opt2">1945</string>
+    <string name="q1_opt3">1960</string>
+
+    <string name="q2_opt1">13</string>
+    <string name="q2_opt2">12</string>
+    <string name="q2_opt3">14</string>
+
+    <string name="q3_opt1">Rome</string>
+    <string name="q3_opt2">Los Angeles</string>
+    <string name="q3_opt3">Palestine</string>
+
+    <string name="q4_opt1">Plato</string>
+    <string name="q4_opt2">Socrates</string>
+    <string name="q4_opt3">Copernicus</string>
+
+    <string name="q5_opt1">Brazil</string>
+    <string name="q5_opt2">France</string>
+    <string name="q5_opt3">Portugal</string>
+
+
+
+
+
+</resources>

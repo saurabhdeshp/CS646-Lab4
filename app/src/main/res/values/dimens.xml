@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="linear_layout_padding">16dp</dimen>
+    <dimen name="num_people_text_size">24sp</dimen>
+    <dimen name="edit_text_min_height">48dp</dimen>
+    <dimen name="text_view_margin">20dp</dimen>
+    <dimen name="button_margin">20dp</dimen>
+
+    <dimen name="title_size">20sp</dimen>
+    <dimen name="text_view_text_size">18sp</dimen>
+
+</resources>
