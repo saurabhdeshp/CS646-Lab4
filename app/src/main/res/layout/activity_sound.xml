@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-
-
-
+<!-- activity_camera.xml -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
@@ -15,34 +12,23 @@
     android:background="@color/white"
     tools:context="com.example.GeneralKnowledgeQuiz.MainActivity">
 
-    <Button
-        android:id="@+id/button_start_quiz"
+    <TextView
+        android:id="@+id/text_view_timestamp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Start Quiz" />
+        android:text="00:00"
+        android:textSize="18sp" />
 
     <Button
-        android:id="@+id/button_camera_activity"
+        android:id="@+id/button_play_sound"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Camera Activity" />
+        android:text="Play Sound" />
 
-    <Button
-        android:id="@+id/button_sound_activity"
-        android:layout_width="wrap_content"
+    <SeekBar
+        android:id="@+id/seek_bar_playback"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Sound Activity" />
-
-    <Button
-        android:id="@+id/button_location_activity"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Location Activity" />
-
-    <Button
-        android:id="@+id/button_animation_activity"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Animation Activity" />
+        android:layout_marginTop="16dp" />
 
 </LinearLayout>

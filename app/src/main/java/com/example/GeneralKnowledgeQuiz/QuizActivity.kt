@@ -1,22 +1,15 @@
-package com.example.pizzapartyapp
+package com.example.GeneralKnowledgeQuiz
 import android.content.DialogInterface
-import android.content.Intent
 import android.os.Bundle
-import android.text.TextUtils.replace
-import android.view.Menu
-import android.view.MenuItem
+
 import android.view.View
 import android.widget.*
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
-import com.example.pizzapartyapp.R.id
-import com.example.pizzapartyapp.R.layout
+import com.example.pizzapartyapp.R
 
 
-class MainActivity : AppCompatActivity() {
-
-
-
+class QuizActivity : AppCompatActivity(){
     /**
      * The radio button - answers
      */
@@ -29,35 +22,10 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(layout.activity_main)
-        showExampleFragment()
+        setContentView(R.layout.activity_quiz)
 
-
+        // Add the rest of the quiz-related code here
     }
-
-    private fun showExampleFragment() {
-        supportFragmentManager.beginTransaction()
-            .replace(R.id.fragment_container, ExampleFragment())
-            .commit()
-    }
-
-
-    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
-        menuInflater.inflate(R.menu.menu_main, menu)
-        return true
-    }
-
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        return when (item.itemId) {
-            R.id.action_settings -> {
-                val settingsIntent = Intent(this, SettingsActivity::class.java)
-                startActivity(settingsIntent)
-                true
-            }
-            else -> super.onOptionsItemSelected(item)
-        }
-    }
-
 
     private fun resetQuiz() {
         radioGroup1.clearCheck()
@@ -79,32 +47,32 @@ class MainActivity : AppCompatActivity() {
 
 
         val answer1 = when (radioGroup1.checkedRadioButtonId) {
-            id.q1_opt_1 -> "1930"
-            id.q1_opt_2 -> "1945"
+            R.id.q1_opt_1 -> "1930"
+            R.id.q1_opt_2 -> "1945"
             else -> "1960"
         }
 
         val answer2 = when (radioGroup2.checkedRadioButtonId) {
-            id.q2_opt_1 -> "13"
-            id.q2_opt_2 -> "12"
+            R.id.q2_opt_1 -> "13"
+            R.id.q2_opt_2 -> "12"
             else -> "14"
         }
 
         val answer3 = when (radioGroup3.checkedRadioButtonId) {
-            id.q3_opt_1 -> "Rome"
-            id.q3_opt_2 -> "Los Angeles"
+            R.id.q3_opt_1 -> "Rome"
+            R.id.q3_opt_2 -> "Los Angeles"
             else -> "Palestine"
         }
 
         val answer4 = when (radioGroup4.checkedRadioButtonId) {
-            id.q4_opt_1 -> "Plato"
-            id.q4_opt_2 -> "Socrates"
+            R.id.q4_opt_1 -> "Plato"
+            R.id.q4_opt_2 -> "Socrates"
             else -> "Copernicus"
         }
 
         val answer5 = when (radioGroup5.checkedRadioButtonId) {
-            id.q5_opt_1 -> "Brazil"
-            id.q5_opt_2 -> "France"
+            R.id.q5_opt_1 -> "Brazil"
+            R.id.q5_opt_2 -> "France"
             else -> "Portugal"
         }
 
@@ -139,5 +107,4 @@ class MainActivity : AppCompatActivity() {
         alertDialog.show()
 
     }
-
 }

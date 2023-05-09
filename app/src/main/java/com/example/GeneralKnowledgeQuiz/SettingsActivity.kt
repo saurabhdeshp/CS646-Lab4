@@ -1,4 +1,4 @@
-package com.example.pizzapartyapp
+package com.example.GeneralKnowledgeQuiz
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
