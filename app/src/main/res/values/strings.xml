@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">General Knowledge Quiz</string>
+    <string name="app_name">Android App Development Lab 4</string>
     <string name="num_people">Number of people?</string>
     <string name="hint_edit_text"># of people</string>
     <string name="light">Light</string>

@@ -66,9 +66,11 @@
 
     </application>
 
-    <!-- Add these permissions inside the manifest tag -->
+    <!-- Location Permission -->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <!-- Camera Permission -->
     <uses-feature android:name="android.hardware.camera" android:required="true" />
 
     <queries>

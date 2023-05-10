@@ -16,8 +16,7 @@ class AnimationActivity : AppCompatActivity() {
         setContentView(R.layout.activity_animation)
 
         val imageViewFrameAnimation = findViewById<ImageView>(R.id.image_view_frame_animation)
-        // Remove this line
-        // imageViewFrameAnimation.setBackgroundResource(R.drawable.frame_by_frame_animation)
+
         frameAnimation = imageViewFrameAnimation.background as AnimationDrawable
     }
 
